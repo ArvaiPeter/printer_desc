@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot name="ender3">
+
+    <link name="Frame">
+        <visual>
+            <geometry>
+                <mesh filename="package://printer_description/cr_ender_3/resources/Frame.stl" scale="1.0"/>
+            </geometry> 
+        </visual>
+    </link>
+</robot>
